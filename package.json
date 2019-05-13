@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "compile": "./node_modules/typescript/bin/tsc",
+        "find": "node ./node_modules/serialport/bin/list.js",
+        "start": "node ./built/index.js"
+    },
+    "dependencies": {
+        "serialport": "^6.2.0",
+        "wsdot-traveler-info": "1.3.0"
+    },
+    "devDependencies": {
+        "typescript": "2.9.2",
+        "@types/serialport": "6.0.2"
+    }
+}
