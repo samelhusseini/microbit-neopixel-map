@@ -10,11 +10,11 @@ Run ``yarn`` to install dependencies and build the Typescript sources.
 
 Get an API key from the WSDot service at [https://www.wsdot.com/traffic/api/](https://www.wsdot.com/traffic/api/)
 
-Configure the API key in ``config.ts``
+Configure the API key in ``src/config.ts``
 
 ## Compile
 
-Compile the changes made to ``config.ts`` by running ``yarn compile``.
+Compile the changes made to ``src/config.ts`` by running ``yarn compile``.
 
 ## Run
 

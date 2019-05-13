@@ -8,6 +8,11 @@ if (process.argv.length < 3) {
     process.exit(0);
 }
 
+if (CONFIG.API_KEY === "INSERT_YOUR_API_KEY") {
+    console.error('You will need to configure your WSDot API Key in src/config.ts');
+    process.exit(0);
+}
+
 const apiKey = CONFIG.API_KEY;
 const microbitPort = process.argv[2]; //eg: '/dev/tty.usbmodem1422';
 const client = new TravelerInfoClient(apiKey);
